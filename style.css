@@ -1,0 +1,333 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    container: left;
+    background-color: black;
+     color: white;
+     height: 50px;
+   display: flex;
+ 
+}
+.num{
+  
+    margin-left: 600px;
+    gap: 5px;
+    padding: 10px;
+   
+}
+.btn1{
+    height: 30px; 
+    width: 100px;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 5px;
+
+
+}
+.h1{
+color: black;
+font-size:xx-large;
+font-weight:bold;
+text-align: center;
+padding-top: 30px;
+
+}
+.h2{
+    color: black;
+    font-size:xx-large;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 30px;
+}
+    
+    .mainheading{
+        font-weight: bold;
+        font-size: xx-large;
+        background-image: url(./image/green-background-Graphics-23448715-1-1-580x386.jpg);
+        height: 200px;
+        color: aliceblue;
+        text-align: center;
+        padding-top: 50px;
+            
+    }
+
+    
+.btn2{
+    height: 30px;
+    background-color: rgb(240, 164, 24);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px;
+    width: 140px;
+   
+}
+.h3{
+    color: black;
+    font-size:xx-large;
+    font-weight:bold;
+   text-align: center;
+   padding-top: 30px;
+}
+.btn3{
+    height: 40px;
+    background-color: rgb(240, 164, 24);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px;
+    width: 170px;
+ 
+}
+.h4{
+    color: black;
+    font-size:xx-large;
+    font-weight:bold;
+   text-align: center;
+}
+.img1{
+ text-align: center;
+
+}
+.card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 300px;
+    height: 100%;
+    
+  }
+  
+  
+  
+  .icon i {
+    font-size: 30px;
+    color: #dc3545;
+position: relative;
+bottom: 40px;
+left: 60px;
+background-color: #ffc107;
+    border-radius: 50%;
+    padding: 15px;
+   width: 30px;
+  text-align: center;
+  }
+  
+  .card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    text-align: center;
+    
+  }
+  
+  .h5{
+    color: black;
+    font-size:xx-large;
+    font-weight:bold;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.h6{
+    color: black;
+    font-size:xx-large;
+    font-weight:bold;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.h7{
+    color: black;
+    font-size:xx-large;
+    font-weight:bold;
+   text-align: center;
+   padding-top: 20px;
+}
+.h8{
+   
+    color: #f2f2f2;
+    height: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    padding-top: 30px;
+}
+.BTN4{
+    height: 30px;
+    background-color: rgb(240, 164, 24);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px;
+    width: 150px;
+ 
+}
+.h9{
+ 
+    color: black;
+    height: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    padding-top: 30px;
+}
+.footer{
+    height: 150px;
+    color: #f2f2f2;
+    padding-bottom: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+.circle .icon{
+ 
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    justify-content:center;
+    padding-top: 90px;
+    margin-right: 80px;
+   
+ 
+}
+
+.line{
+    background-color: #ddd;
+    height: 5px;
+    flex-grow: 1;
+    width: 20px;
+
+}
+ .slide{
+    width: 100%;
+height: 300px;
+
+margin-top: 50px;
+box-shadow: 0px 0px 3px whitesmoke;
+} 
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    padding-right: 70px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-icon i {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .profile-info {
+    margin-left: 20px;
+  }
+  
+  .profile-info h2 {
+    margin-bottom: 5px;
+  }
+  
+  .profile-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  .container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    
+    font-size: 18px;
+    font-weight: bold;
+   
+  }
+  .container3{
+    display: flex;
+    width: 420px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background-color: #ddd;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+.circular-progress{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #7d2ae8 ;
+}
+
+
+
+
+
+   /* .radial-bar{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  } */
+  /*
+  .radial-bars .radial-bar .progress-bar{
+    stroke-width: 10;
+    stroke: #333;
+   stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar is linear forwards;
+  }
+  
+  @keyframes animate-bar{
+100%{
+  stroke-dashoffset: -1;
+} 
+  }
+  /* .path{
+
+    stroke-width: 10;
+    stroke:aqua;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+
+  }
+  .path-1{
+    animation: animate-path1   is is linear forwards;
+  }
+  .path-2{
+    animation: animate-path1   is is linear forwards;
+  }
+  .path-3{
+    animation: animate-path1   is is linear forwards;
+  }
+  .path-4{
+    animation: animate-path1   is is linear forwards;
+  } */
