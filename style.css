@@ -72,6 +72,10 @@ padding-top: 30px;
    text-align: center;
    padding-top: 30px;
 }
+.image{
+  padding-left: 30px;
+}
+
 .btn3{
     height: 40px;
     background-color: rgb(240, 164, 24);
@@ -80,6 +84,23 @@ padding-top: 30px;
     box-shadow: 20px;
     width: 170px;
  
+}
+@media (max-width:950px) {
+  .about{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .image{
+      margin-top: 20px;
+      width: 350px;
+      height: 250px;
+  }
+  .image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 }
 .h4{
     color: black;
@@ -90,6 +111,12 @@ padding-top: 30px;
 .img1{
  text-align: center;
 
+}
+@media (max-width:950px) {
+  .figure{
+      display: flex;
+      flex-direction: column;
+  }
 }
 .card {
     background-color: #f2f2f2;
@@ -126,6 +153,9 @@ background-color: #ffc107;
     text-align: center;
     
   }
+  .card:hover{
+    transform: scale(0.95);
+  }
   
   .h5{
     color: black;
@@ -148,7 +178,8 @@ background-color: #ffc107;
     font-size:xx-large;
     font-weight:bold;
    text-align: center;
-   padding-top: 20px;
+  padding-top: 40px;
+   padding-left: 30px;
 }
 .h8{
    
@@ -168,20 +199,7 @@ background-color: #ffc107;
     width: 150px;
  
 }
-.h9{
- 
-    color: black;
-    height: 200px;
-    text-align: center;
-    font-weight: bolder;
-    font-size:xx-large;
-    padding-top: 30px;
-}
-.footer{
-    height: 150px;
-    color: #f2f2f2;
-    padding-bottom: 100px;
-}
+
 .container{
     display: flex;
     justify-content: center;
@@ -208,52 +226,88 @@ background-color: #ffc107;
     width: 20px;
 
 }
- .slide{
-    width: 100%;
-height: 300px;
+.peopleAboutUs{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(238, 240, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.peopleAboutUs h1{
+  text-align: center;
+  padding: 20px;
+}
+.peopleAboutUs p{
+  color: rgb(138, 137, 137);
+  text-align: center;
+}
+.people{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 5px;
+}
+.people:hover{
+  transform: scale(0.95);
+}
+.peopleSection{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.peoplePicture{
+  width: 400px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.peoplePicture i{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(202, 201, 201) ;
 
-margin-top: 50px;
-box-shadow: 0px 0px 3px whitesmoke;
-} 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 100%; */
-    padding-right: 70px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
+}
+.peopleReview{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.peopleReview p{
+  text-align: left;
   
-  .profile-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+@media (max-width:850px) {
+  .peopleAboutUs{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
   }
+  .peopleSection{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+  }
+  .people{
+      width: 320px;
+      height: 150px;
   
-  .profile-icon i {
-    font-size: 24px;
-    color: #333;
   }
-  
-  .profile-info {
-    margin-left: 20px;
-  }
-  
-  .profile-info h2 {
-    margin-bottom: 5px;
-  }
-  
-  .profile-info p {
-    font-size: 14px;
-    color: #666;
-  }
+}
+
   .container1 {
     display: flex;
     justify-content: space-around;
@@ -275,59 +329,188 @@ box-shadow: 0px 0px 3px whitesmoke;
     flex-direction: column;
     align-items: center;
   }
-.circular-progress{
-  position: relative;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  background-color: #7d2ae8 ;
+  .ourSkills{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-top: 30px;
+
+}
+.ourSkills h1{
+    text-align: center;
+
+}
+.ourSkills p{
+    color: rgb(138, 137, 137);
+    text-align: center;
+}
+.ourSkillCircle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.circle{
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.progress-circle1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(yellow 0% 45%, rgb(241, 241, 139) 45% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ani 2.5s linear infinite
+  }
+  @keyframes ani {
+    to{transform: rotate(360deg);}
+  }
+  .progress-circle1::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+  }
+  .progress-circle2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#f44336 0% 60%, #f3a7a7 60% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ani 2.5s linear infinite
+  }
+  .progress-circle2::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+  }
+  .progress-circle3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(green 0% 75%, rgb(117, 194, 117) 75% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ani 2.5s linear infinite
+  }
+  .progress-circle3::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+  }
+  .progress-circle4 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(black 0% 80%, rgb(128, 123, 123) 80% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ani 2.5s linear infinite
+  }
+  .progress-circle4::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+  }
+  .percentage {
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 30px;
+   
+  }
+  .label {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+  }
+  @keyframes ani {
+    to{transform: rotate(360deg);}
+  }
+
+  @media (max-width:850px) {
+    .ourSkillCircle{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+.h9{
+ 
+  color: black;
+  height: 200px;
+  text-align: center;
+  font-weight: bolder;
+  font-size:xx-large;
+  padding-top: 30px;
+}
+iframe{
+width: 100%;
+height: 400px;
+}
+@media (max-width:850px) {
+  .ContactInfo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+  }
+}
+.footer{
+  height: 150px;
+  color: #f2f2f2;
+  padding-bottom: 100px;
+}
+.para1{
+  display: flex;
+   padding-left:500px ;
+   position: relative ;
+   bottom: 120px;
+}
+@media (max-width:850px) {
+  .footer{
+      display: flex;
+      flex-direction: column;
+  }
+  .para{
+      height: 200px;
+      width: 300px;
+      padding-left: 10px;
+}
+
+  .para1{
+      padding-left: 5px;
+  }
+
 }
 
 
-
-
-
-   /* .radial-bar{
-    width: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-  } */
-  /*
-  .radial-bars .radial-bar .progress-bar{
-    stroke-width: 10;
-    stroke: #333;
-   stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    animation: animate-bar is linear forwards;
-  }
-  
-  @keyframes animate-bar{
-100%{
-  stroke-dashoffset: -1;
-} 
-  }
-  /* .path{
-
-    stroke-width: 10;
-    stroke:aqua;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-
-  }
-  .path-1{
-    animation: animate-path1   is is linear forwards;
-  }
-  .path-2{
-    animation: animate-path1   is is linear forwards;
-  }
-  .path-3{
-    animation: animate-path1   is is linear forwards;
-  }
-  .path-4{
-    animation: animate-path1   is is linear forwards;
-  } */
